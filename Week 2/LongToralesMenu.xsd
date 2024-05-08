@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<xsd:element name="menu">
+    <xsd:complexType>
+        <xsd:sequence mixed="true">
+            <xsd:element name="item" maxOccurs="unbounded">
+                <xsd:complexType mixed="true">
+                    <xsd:attribute name="id" type="xsd:positiveInteger" use="required">
+                    </xsd:attribute>
+
+                    <xsd:sequence>
+
+                        <xsd:element name="name" type="xsd:string">
+                        </xsd:element>
+
+                        <xsd:element name="price">
+                            <xsd:simpleType>
+                                <xsd:restriction base="xsd:decimal">
+                                    <xsd:fractionDigits value="2"/>
+                                </xsd:restriction>
+                            </xsd:simpleType>
+                        </xsd:element>
+
+                    </xsd:sequence>
+
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+</xsd:schema>

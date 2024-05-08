@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<xsd:element name="fandango">
+    <xsd:complexType mixed="true">
+        <xsd:sequence>
+            <xsd:element name="theater" maxOccurs="unbounded">
+                <xsd:complexType mixed="true">
+                    <xsd:sequence>
+
+                        <xsd:element name="name" type="xsd:string"/>
+    
+                        <xsd:element name="address">
+                            <xsd:complexType mixed="true">
+                                <xsd:sequence>
+                                    
+                                    <xsd:element name="number" type="xsd:positiveInteger"/>
+    
+                                    <xsd:element name="street" type="xsd:string"/>
+    
+                                    <xsd:element name="city" type="xsd:string"/>
+    
+                                    <xsd:element name="state" type="xsd:string"/>
+    
+                                    <xsd:element name="zipcode">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:positiveInteger">
+                                                <xsd:maxInclusive value="99999"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+    
+                        <xsd:element name="movie" maxOccurs="unbounded">
+                            <xsd:complexType mixed="true">
+                                <xsd:sequence>
+    
+                                    <xsd:element name="title" type="xsd:string"/>
+    
+                                    <xsd:element name="releaseYear">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:positiveInteger">
+                                                <xsd:maxInclusive value="2024"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+    
+                                    <xsd:element name="image" type="xsd:string"/>
+    
+                                    <xsd:element name="maturityRating">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:enumeration  value="G"/>
+                                                <xsd:enumeration  value="PG"/>
+                                                <xsd:enumeration  value="PG-13"/>
+                                                <xsd:enumeration  value="R"/>
+                                                <xsd:enumeration  value="R"/>
+                                                <xsd:enumeration  value="N/A"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+    
+                                    <xsd:element name="length">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:pattern value="[0-9]?[0-9]?:[0-5][0-9]"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+    
+                                    <xsd:element name="genre" maxOccurs="unbounded">
+                                        <xsd:simpleType>
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:enumeration value="comedy"/>
+                                                <xsd:enumeration value="music/performing arts"/>
+                                                <xsd:enumeration value="action/adventure"/>
+                                                <xsd:enumeration value="mystery and thriller"/>
+                                                <xsd:enumeration value="suspense/thriller"/>
+                                                <xsd:enumeration value="romance"/>
+                                                <xsd:enumeration value="kids and family"/>
+                                                <xsd:enumeration value="sci-fi/fantasy"/>
+                                                <xsd:enumeration value="concert/special events"/>
+                                                <xsd:enumeration value="drama"/><xsd:enumeration value="horror"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+                                    
+                                    <xsd:element name="showtime" maxOccurs="unbounded">
+                                        <xsd:complexType>
+    
+                                            <xsd:simpleContent>
+                                                <xsd:extension base="xsd:time">
+                                                    <xsd:attribute name="recliners" type="xsd:string"/>
+                                                    <xsd:attribute name="D-Box" type="xsd:string"/>
+                                                    <xsd:attribute name="IMAX" type="xsd:string"/>
+                                                    <xsd:attribute name="foreignLanguage" type="xsd:string"/>
+                                                    <xsd:attribute name="subtitles" type="xsd:string"/>
+                                                    <xsd:attribute name="other" type="xsd:string"/>
+                                                </xsd:extension>
+                                            </xsd:simpleContent>
+    
+                                        </xsd:complexType>
+                                    </xsd:element>
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
+
+                    <xsd:attribute name="id" type="xsd:positiveInteger" use="required"/>
+
+                </xsd:complexType>
+            </xsd:element>
+        </xsd:sequence>
+    </xsd:complexType>
+</xsd:element>
+
+</xsd:schema>

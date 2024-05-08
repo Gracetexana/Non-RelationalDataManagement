@@ -1,0 +1,27 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Drivers\\JavaDrivers\\bson-4.3.0.jar",
+        "c:\\Drivers\\JavaDrivers\\bson-4.3.0-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-core-4.3.0.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-core-4.3.0-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-sync-4.3.0.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-sync-4.3.0-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-api-1.7.30.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-api-1.7.30-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-simple-1.7.30.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-simple-1.7.30-javadoc.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\bson-4.3.0.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\bson-4.3.0-javadoc.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\mongodb-driver-core-4.3.0.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\mongodb-driver-core-4.3.0-javadoc.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\mongodb-driver-sync-4.3.0.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\mongodb-driver-sync-4.3.0-javadoc.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\slf4j-api-1.7.30.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\slf4j-api-1.7.30-javadoc.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\slf4j-simple-1.7.30.jar",
+        "c:\\Users\\Grace\\My Drive\\RIT\\Non Relational Data Management\\Week 5\\JavaDrivers\\slf4j-simple-1.7.30-javadoc.jar"
+    ]
+}

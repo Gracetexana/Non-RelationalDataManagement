@@ -1,0 +1,11 @@
+{
+    "java.project.sourcePaths": [
+        "Neo4jExamples",
+        ""
+    ],
+    "java.project.referencedLibraries": [
+        "neo4j-java-driver-4.3.1.jar",
+        "neo4j-java-driver-4.3.1-javadoc.jar",
+        "reactive-streams-1.0.3.jar"
+    ]
+}

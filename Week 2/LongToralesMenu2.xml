@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="LongToralesMenu2.xslt"?>
+<menu>
+    <item id="1">
+        <name>Hamburger</name>
+        <price>8.75</price>
+        <image>photos/hamburger.avif</image>
+    </item>
+    <item id="2">
+        <name>Hot Dog</name>
+        <price>6.50</price>
+        <image>photos/hotdog.jpg</image>
+    </item>
+    <item id="3">
+        <name>Cola Drink</name>
+        <price>3.25</price>
+        <image>photos/cola.jpg</image>
+    </item>
+</menu>

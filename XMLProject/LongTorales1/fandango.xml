@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE fandango SYSTEM "fandango.dtd">
+<?xml-stylesheet type="text/xsl" href="fandango.xslt"?>
+
+<fandango>
+    <theater id="1">
+        <name>Cinemark Tinseltown Rochester and IMAX</name>
+        <address>
+            <number>2291</number>
+            <street>Buffalo Road</street>
+            <city>Rochester</city>
+            <state>NY</state>
+            <zipcode>14624</zipcode>
+        </address>
+
+        <movie>
+            <title>Mean Girls</title>
+            <releaseYear>2024</releaseYear>
+            <image>photos/meanGirls.jpg</image>
+            <maturityRating>PG-13</maturityRating>
+            <length>1:58</length>
+            <genre>comedy</genre>
+            <genre>music/performing arts</genre>
+            <showtime recliners="Luxury Loungers">10:45:00</showtime>
+            <showtime recliners="Luxury Loungers">13:35:00</showtime>
+            <showtime recliners="Luxury Loungers">16:25:00</showtime>
+            <showtime recliners="Luxury Loungers">18:25:00</showtime>
+            <showtime recliners="Luxury Loungers">19:15:00</showtime>
+            <showtime recliners="Luxury Loungers">22:05:00</showtime>
+            <showtime D-Box="D-Box" recliners="Luxury Loungers">10:45:00</showtime>
+            <showtime D-Box="D-Box" recliners="Luxury Loungers">13:35:00</showtime>
+            <showtime D-Box="D-Box" recliners="Luxury Loungers">16:25:00</showtime>
+            <showtime D-Box="D-Box" recliners="Luxury Loungers">19:15:00</showtime>
+            <showtime D-Box="D-Box" recliners="Luxury Loungers">22:05:00</showtime>
+        </movie>
+
+        <movie>
+            <title>The Beekeeper</title>
+            <releaseYear>2024</releaseYear>
+            <image>photos/beekeeper.jpg</image>
+            <maturityRating>R</maturityRating>
+            <length>1:45</length>
+            <genre>action/adventure</genre>
+            <genre>mystery and thriller</genre>
+            <genre>suspense/thriller</genre>
+            <showtime IMAX="IMAX">16:00:00</showtime>
+            <showtime IMAX="IMAX">18:50:00</showtime>
+            <showtime D-Box="D-Box">11:00:00</showtime>
+            <showtime D-Box="D-Box">13:55:00</showtime>
+            <showtime D-Box="D-Box">16:40:00</showtime>
+            <showtime D-Box="D-Box">19:25:00</showtime>
+            <showtime D-Box="D-Box">22:15:00</showtime>
+            <showtime recliners="Luxury Loungers">11:00:00</showtime>
+            <showtime recliners="Luxury Loungers">13:55:00</showtime>
+            <showtime recliners="Luxury Loungers">16:40:00</showtime>
+            <showtime recliners="Luxury Loungers">19:25:00</showtime>
+            <showtime recliners="Luxury Loungers">22:15:00</showtime>
+        </movie>
+
+        <movie>
+            <title>Barbie</title>
+            <releaseYear>2023</releaseYear>
+            <image>photos/barbie.jpg</image>
+            <maturityRating>PG-13</maturityRating>
+            <length>1:54</length>
+            <genre>comedy</genre>
+            <showtime recliners="Luxury Loungers ">15:25:00</showtime>
+            <showtime recliners="Luxury Loungers ">22:45:00</showtime>
+        </movie>
+    </theater>
+
+    
+    <theater id="2">
+        <name>Apple Cinemas Pittsford</name>
+        <address>
+            <number>3349</number>
+            <street>Monroe Avenue</street>
+            <city>Pittsford</city>
+            <state>NY</state>
+            <zipcode>14618</zipcode>
+        </address>
+
+        <movie>
+            <title>Fighter</title>
+            <releaseYear>2024</releaseYear>
+            <image>photos/fighter.jpg</image>
+            <maturityRating>N/A</maturityRating>
+            <length>2:40</length>
+            <genre>action/adventure</genre>
+            <genre>mystery and thriller</genre>
+            <genre>suspense/thriller</genre>
+            <showtime  recliners="recliners" foreignLanguage="Hindi Language">17:00:00</showtime>
+            <showtime  recliners="recliners" foreignLanguage="Hindi Language">20:40:00</showtime>
+        </movie>
+
+        <movie>
+            <title>Anyone But You</title>
+            <releaseYear>2023</releaseYear>
+            <image>photos/anyoneButYou.jpg</image>
+            <maturityRating>R</maturityRating>
+            <length>1:44</length>
+            <genre>comedy</genre>
+            <genre>romance</genre>
+            <showtime recliners="recliners">13:30:00</showtime>
+            <showtime recliners="recliners">16:20:00</showtime>
+            <showtime recliners="recliners">18:50:00</showtime>
+            <showtime recliners="recliners">21:20:00</showtime>
+        </movie>
+
+        <movie>
+            <title>Wonka</title>
+            <releaseYear>2023</releaseYear>
+            <image>photos/wonka.jpg</image>
+            <maturityRating>PG</maturityRating>
+            <length>1:56</length>
+            <genre>comedy</genre>
+            <genre>kids and family</genre>
+            <genre>music/performing arts</genre>
+            <genre>sci-fi/fantasy</genre>
+            <showtime recliners="recliners">12:30:00</showtime>
+            <showtime recliners="recliners">15:30:00</showtime>
+            <showtime recliners="recliners">18:30:00</showtime>
+            <showtime recliners="recliners">21:10:00</showtime>
+        </movie>
+    </theater>
+
+    
+    <theater id="3">
+        <name>Regal Eastview Mall</name>
+        <address>
+            <number>70</number>
+            <street>Eastview Mall Drive</street>
+            <city>Victor</city>
+            <state>NY</state>
+            <zipcode>14564</zipcode>
+        </address>
+
+        <movie>
+            <title>The Metropolitan Opera: Carmen</title>
+            <releaseYear>2024</releaseYear>
+            <image>photos/carmen.jpg</image>
+            <maturityRating>N/A</maturityRating>
+            <length>4:00</length>
+            <genre>concert/special events</genre>
+            <genre>drama</genre>
+            <genre>music/performing arts</genre>
+            <showtime  recliners="recliners" other="No Pases, The Met Opera"> 12:55:00</showtime>
+        </movie>
+
+        <movie>
+            <title>Godzilla Minus One Minus Color</title>
+            <releaseYear>2024</releaseYear>
+            <image>photos/godzilla.jpg</image>
+            <maturityRating>PG-13</maturityRating>
+            <length>2:05</length>
+            <genre>action/adventure</genre>
+            <genre>sci-fi/fantasy</genre>
+            <showtime  recliners="recliners" subtitles="English Subtitles" foreignLanguage="Japanese Language">18:50:00</showtime>
+        </movie>
+
+        <movie>
+            <title>Night Swim</title>
+            <releaseYear>2024</releaseYear>
+            <image>photos/nightSwim.jpg</image>
+            <maturityRating>PG-13</maturityRating>
+            <length>1:38</length>
+            <genre>horror</genre>
+            <genre>mystery and thriller</genre>
+            <genre>suspense/thriller</genre>
+            <showtime recliners="recliners">21:10:00</showtime>
+        </movie>
+    </theater>
+</fandango>

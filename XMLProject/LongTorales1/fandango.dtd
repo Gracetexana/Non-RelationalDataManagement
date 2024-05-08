@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!ELEMENT fandango (theater+)>
+<!ELEMENT theater (name, address, movie+)>
+<!ATTLIST theater
+    id CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (number, street, city, state, zipcode)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zipcode (#PCDATA)>
+<!ELEMENT movie (title, releaseYear, image, maturityRating, length, genre+, showtime+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT releaseYear (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT maturityRating (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT showtime (#PCDATA)>
+<!ATTLIST showtime
+    D-Box CDATA
+        #IMPLIED
+    IMAX CDATA
+        #IMPLIED
+    recliners CDATA
+        "recliners"
+    foreignLanguage CDATA
+        #IMPLIED
+    subtitles CDATA
+        "English subtitles"
+    other CDATA
+        #IMPLIED>

@@ -1,0 +1,15 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Drivers\\JavaDrivers\\bson-4.3.0.jar",
+        "c:\\Drivers\\JavaDrivers\\bson-4.3.0-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-core-4.3.0.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-core-4.3.0-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-sync-4.3.0.jar",
+        "c:\\Drivers\\JavaDrivers\\mongodb-driver-sync-4.3.0-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-api-1.7.30.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-api-1.7.30-javadoc.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-simple-1.7.30.jar",
+        "c:\\Drivers\\JavaDrivers\\slf4j-simple-1.7.30-javadoc.jar"
+    ]
+}
