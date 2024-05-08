@@ -70,7 +70,20 @@ I enrolled in this course during my third semester at RIT from January 2024 to M
 
   - Adding usernames and roles to a database
   - Authorizing users to access a database
+
+  ### [MongoDB Homework 9](<Week 8>)
+
+  - [Scenario 1](<Week 8/scenario1.js>)
+      Store data about three students and two courses as though each course has 20 students or less.
+    
+  - [Scenario 2](<Week 8/scenario2.js>)
+      Store data about three students and two courses as though each course has up to 20,000 students.
   
 ## Neo4j
 
-  ### [Neo4j Homework 1]()
+  ### [Neo4j Homework 1](<Week 9>)
+
+  ### [Neo4j Homework 2](<Week 10/PENeo02>)
+
+  - [Part 1](<Week 10/PENeo02/Part 1)
+  - [Part 2](<Week 10/PENeo02/Part 2)
