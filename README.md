@@ -38,7 +38,7 @@ I enrolled in this course during my third semester at RIT from January 2024 to M
   - Load some data into the database
   - Retrieve data from the database
   
-  ### MongoDB Homework 2
+  ### [MongoDB Homework 2](<Week 3>)
 
   - Create a new collection in a database
   - Load data into the collection
@@ -52,9 +52,24 @@ I enrolled in this course during my third semester at RIT from January 2024 to M
 
   ### [MongoDB Homework 4](<Week 4/PE04regex.js>)
 
-  - Use regular expressions to query a database
+  - Use regular expressions in JavaScript to query a database
 
-  ### [
+  ### [MongoDB Homework 5](<Week 5/Regex/src/Regex.java>)
+
+  - Use regular expressions in Java to query a database
+
+  ### [MongoDB Homework 6](<Week 5/LongToralesMPe06/2.js>)
+
+  - Add a geographic location field to a database
+
+  ### [MongoDB Homework 7](<Week 6>)
+
+  - Store images in the MongoDB GridFS Database
+
+  ### [MongoDB Homework 8](<Week 7>)
+
+  - Adding usernames and roles to a database
+  - Authorizing users to access a database
   
 ## Neo4j
 
