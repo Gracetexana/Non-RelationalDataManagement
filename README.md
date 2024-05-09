@@ -74,10 +74,10 @@ I enrolled in this course during my third semester at RIT from January 2024 to M
   ### [MongoDB Homework 9](<Week 8>)
 
   - [Scenario 1](<Week 8/scenario1.js>)
-      Store data about three students and two courses as though each course has 20 students or less.
+      Create a database of three students and two courses and the relationships between them as though each course has 20 students or less.
     
   - [Scenario 2](<Week 8/scenario2.js>)
-      Store data about three students and two courses as though each course has up to 20,000 students.
+      Create a database of three students and two courses and the relationships between them as though each course has up to 20,000 students.
   
 ## Neo4j
 
@@ -85,7 +85,34 @@ I enrolled in this course during my third semester at RIT from January 2024 to M
 
   ### [Neo4j Homework 2](<Week 10/PENeo02>)
 
-  - [Part 1](<Week 10/PENeo02/Part 1)
+  - [Part 1](<Week 10/PENeo02/Part 1>)
       Create a [database](<Week 10/PENeo02/Part 1/LongToralesPENeo02-Part1.dump>) with people, organizations, and committees.
     
-  - [Part 2](<Week 10/PENeo02/Part 2)
+  - [Part 2](<Week 10/PENeo02/Part 2>)
+      Query that database.
+
+  ### [Neo4j Homework 3](<Week 10/PENeo03>)
+
+  - Create a [database](<Week 10/PENeo03/LongToralesPENeo03.dump>) of people that are friends with each other and/or manage each other.
+
+  ### [Neo4j Homework 4](<Week 11/PENeo04>)
+
+  - Query a [database](<Week 11/PENeo04/PENeo04.dump>) created in class.
+
+  ### [Neo4j Homework 5](<Week 11/PENeo05>)
+
+  1. Create a [database](<Week 11/PENeo05/PENeo05.dump>) by adding CSV data to a previously created [database](<Week 11/PENeo04/PENeo04.dump>)
+  2. Query that database.
+
+  ### [Neo4j Homework 6](<Week 12/PENeo06>)
+
+  - Edit the code of a provided Java program to [create a Java program](<Week 12/PENeo06/LongTorales06.java>) that uses regex to enable a user to query a previously created [database](<Week 11/PENeo05/PENeo05.dump>) in a GUI.
+
+  ### [Neo4j Homework 7](<Week 12/PENeo07>)
+
+  - Edit the code of a provided Java program to [create a Java program](<Week 12/PENeo07/LongTorales07.java>) to insert new data into a previously created [database](<Week 11/PENeo05/PENeo05.dump>) using a GUI.
+
+  ### [Neo4j Homework 8](<Week 13/PENeo08>)
+
+  1. Create a [database](<Week 13/PENeo08.dump>) containing three students and two courses and the relationships between them.
+  2. Query that database.
