@@ -86,4 +86,6 @@ I enrolled in this course during my third semester at RIT from January 2024 to M
   ### [Neo4j Homework 2](<Week 10/PENeo02>)
 
   - [Part 1](<Week 10/PENeo02/Part 1)
+      Create a [database](<Week 10/PENeo02/Part 1/LongToralesPENeo02-Part1.dump>) with people, organizations, and committees.
+    
   - [Part 2](<Week 10/PENeo02/Part 2)
